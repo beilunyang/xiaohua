@@ -1,0 +1,5 @@
+<view class="container">
+    <view wx:for="{{jokes}}" wx:key="{{index}}" class="item">
+        <text>{{item.content}}</text>   
+    </view>
+</view>

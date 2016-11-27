@@ -1,0 +1,28 @@
+/**app.wxss**/
+.container {
+  display: block;
+  box-sizing: border-box;
+  font: 14px/1.4 "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  color: #CCC;
+  padding: 10px 0;
+} 
+
+.item {
+   background-color: #263238;
+   padding: 10px;
+   margin: 10px 30px;
+   border-radius: .5em;
+}
+
+.pic-item {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.pic {
+    width: 100%;
+}
+
+page {
+  background-color: #000;
+}

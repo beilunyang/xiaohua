@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/joke/joke",
+    "pages/funpic/funpic",
+    "pages/randomjoke/randomjoke",
+    "pages/randompic/randompic"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "每日一笑",
+    "navigationBarTextStyle":"#CCC",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+      "position": "top",
+      "color": "#CCC",
+      "backgroundColor": "#000",
+      "list": [{
+        "pagePath": "pages/joke/joke",
+        "text": "笑话大全"
+      }, {
+        "pagePath": "pages/funpic/funpic",
+        "text": "搞笑趣图"
+      }, {
+        "pagePath": "pages/randomjoke/randomjoke",
+        "text": "随便看看"
+      }, {
+        "pagePath": "pages/randompic/randompic",
+        "text": "随机趣图"
+      }]
+    }
+}

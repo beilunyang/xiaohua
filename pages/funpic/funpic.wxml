@@ -1,0 +1,6 @@
+<view class="container">
+    <view wx:for="{{funpics}}" wx:key="{{index}}" class="pic-item item">
+        <image src="{{item.url}}" class="pic" mode="aspectFit"></image>
+        <text>{{item.content}}</text>
+    </view>
+</view>
